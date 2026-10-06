@@ -1,0 +1,59 @@
+{
+  "apiVersion": "1",
+  "autor": "Wild Studio",
+  "capacidades": [
+    {
+      "blocosCompativeis": [
+        "CRIAR"
+      ],
+      "custo": {
+        "descricao": "Modo mock local; modo real usa a tua chave de API.",
+        "modelo": "gratuito"
+      },
+      "efeitos": [],
+      "entradas": [
+        {
+          "chave": "tema",
+          "rotulo": "Tema",
+          "tipo": {
+            "cardinalidade": "um",
+            "familia": "texto",
+            "representacao": "embutido",
+            "tipo": "conteudo"
+          }
+        }
+      ],
+      "id": "gerar-titulos",
+      "operador": "ia",
+      "politicaDados": {
+        "descricao": "No modo mock nenhum dado sai da máquina. No modo real, o tema é enviado ao fornecedor configurado.",
+        "enviaParaTerceiros": false,
+        "fornecedores": []
+      },
+      "processosCompativeis": [
+        "titulo"
+      ],
+      "saidas": [
+        {
+          "chave": "titulos",
+          "rotulo": "Títulos",
+          "tipo": {
+            "cardinalidade": "varios",
+            "familia": "texto",
+            "representacao": "embutido",
+            "tipo": "conteudo"
+          }
+        }
+      ]
+    }
+  ],
+  "id": "wild-studio.titulos-referencia",
+  "licenca": "BSL-1.1",
+  "nome": "Títulos de Referência",
+  "runtime": {
+    "entrada": "mao.js",
+    "exportacao": "executar",
+    "tipo": "modulo"
+  },
+  "versao": "0.1.0"
+}
