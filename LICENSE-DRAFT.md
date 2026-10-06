@@ -1,3 +1,6 @@
+# SUPERSEDED — ver `LICENSE` (licença final, BSL 1.1, Wild Studio 0.1.0)
+*Este rascunho foi substituído pela `LICENSE` final. Mantido apenas para histórico.*
+
 # DRAFT — Business Source License 1.1 (rascunho histórico)
 *Texto-padrão da licença (o texto da BSL pode ser reutilizado por permissão da MariaDB plc).
 Parâmetros por preencher antes de publicar. Isto não é aconselhamento jurídico.*

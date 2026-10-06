@@ -3,5 +3,8 @@ dist/
 public/
 *.db
 *.db-journal
+*.db-wal
+*.db-shm
+extensoes/
 .env
 .DS_Store
